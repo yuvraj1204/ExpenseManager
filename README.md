@@ -8,16 +8,23 @@ Add transactions with descriptions, amounts, categories, and types (income or ex
 View all transactions.
 Calculate total income, expenses, and available balance.
 Save and load user data using JSON file storage.
+
 Installation:
 
 Clone the Repository:
+
 git clone https://github.com/yourusername/finance-manager.git
+
 cd Finance-Manager-
 
 Download nlohmann/json:
+
 Download json.hpp from nlohmann/json and place it in your project directory.
+
 Compile the Project:
+
 g++ -o FinanceManager main.cpp FinanceManager.cpp User.cpp Transaction.cpp Category.cpp -std=c++20
 
 Run the executable:
+
 ./FinanceManager
